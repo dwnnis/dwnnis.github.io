@@ -1,0 +1,29 @@
+---
+layout: default
+title: Research
+---
+<h1>Research</h1>
+
+<div class="research-overview">
+    <p> My current research interests are on topics related to <b>Personal Informatics</b> and <b>Social Computing</b>. More specifically, I focus on designing positive social sharing experience for users of personal tracking technology.</p>
+
+    <p> In the past, I have worked on research projects to study and design positive social interaction in different contexts. For example, how interaction between streamers and viewers in livestreaming were influence by monetary-based incentives (digital gifts), and how social affordance of games could potentially engage parents and their preschoolers in fine motor skills training. 
+</div>
+
+<!-- <ul> -->
+    {% for post in site.categories.research %}
+      <!-- <li> -->
+        <!-- img -->
+        <h2><a href="{{ post.url | relative_url }}">{{ post.project_name }}</a></h2>
+        <!-- <p> {{ post.date | date_to_string }}</p> -->
+        <p> 
+            {{ post.publication_venue}} {{ post.publication_year }} | <a href="{{ post.publication_link }}">Paper</a> 
+        </p>
+        {{ post.project_description }}
+        <p class="publication_info">{{ post.publication_info }}</p>
+      <!-- </li> -->
+    {% endfor %}
+<!-- </ul> -->
+
+<br>
+<p> Visit my profile on <a style="font-style: italic;" href="https://scholar.google.com/citations?user=IjfEduAAAAAJ">Google Scholar</a>.</p>
