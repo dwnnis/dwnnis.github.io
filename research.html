@@ -14,7 +14,7 @@ title: Research
     {% for post in site.categories.research %}
       <!-- <li> -->
         <!-- img -->
-        <h2><a href="{{ post.url | relative_url }}">{{ post.project_name }}</a></h2>
+        <h2 class="project_name"> {{ post.project_name }} </h2>
         <!-- <p> {{ post.date | date_to_string }}</p> -->
         <p> 
             {{ post.publication_venue}} {{ post.publication_year }} | <a href="{{ post.publication_link }}">Paper</a> 
