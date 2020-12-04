@@ -11,7 +11,7 @@ publication_name: Understanding How Digital Gifting Influences Social Interactio
 publication_year: 2019
 publication_venue: MobileHCI
 publication_doi: https://doi.org/10.1145/3338286.3340144
-publication_link: https://doi.org/10.1145/3338286.3340144
+publication_link: "/static/lee2019.pdf"
 publication_info: >
     Yi-Chieh Lee, Chi-Hsien Yen, <b>Dennis Wang</b>, and Wai-Tat Fu. 2019. Understanding How Digital Gifting Influences Social Interaction on Live Streams. In Proceedings of the 21st International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '19). Association for Computing Machinery, New York, NY, USA, Article 33, 1–10. DOI:https://doi.org/10.1145/3338286.3340144
 ---

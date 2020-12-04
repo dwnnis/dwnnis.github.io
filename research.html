@@ -16,11 +16,20 @@ title: Research
         <!-- img -->
         <h2 class="project_name"> {{ post.project_name }} </h2>
         <!-- <p> {{ post.date | date_to_string }}</p> -->
+        {% if post.project_status == "ongoing" %}
+        <p> 
+            <i>Ongoing Project</i>
+        </p>
+        {% endif %}
+        {% if post.publication_info != "none" %}
         <p> 
             {{ post.publication_venue}} {{ post.publication_year }} | <a href="{{ post.publication_link }}">Paper</a> 
         </p>
+        {% endif %}
         {{ post.project_description }}
+        {% if post.publication_info != "none" %}
         <p class="publication_info">{{ post.publication_info }}</p>
+        {% endif %}
       <!-- </li> -->
     {% endfor %}
 <!-- </ul> -->
