@@ -12,6 +12,6 @@ publication_name:
 publication_year: 
 publication_venue: 
 publication_doi: 
-publication_link: 
+publication_link:
 publication_info: none
 ---
