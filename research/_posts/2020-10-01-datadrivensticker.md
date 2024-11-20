@@ -3,15 +3,15 @@ layout: post
 # need to add customize web link
 # image:
 # link_to_paper
-project_name: Incorporating Personal Informatics Data in Everyday Sharing on Ephemeral Social Media
+project_name: "SnapPI: Understanding Everyday Use of Personal Informatics Data Stickers on Ephemeral Social Media"
 project_description: >
-     Sharing personal informatics data on social media has many benefits to the sharer. However, the sharer often worries that these activities and accomplishments are too trivial to share. The audience might not receive it as the sharer expected. Ephemeral social media are potentially valuable for sharing personal informatics data as people would be more comfortable sharing trivial and mundane content on it. Designing a sharing feature that incorporates playfulness and expressivity by allowing people to customize a data-driven sticker for sharing could potentially support interesting interaction between individuals with their connections. In this project, we plan to conduct a field study with an authoring app that enables ephemeral social media users with an interest in sharing personal informatics data to freely explore how they could incorporate data in their everyday sharing.
-project_status: ongoing
-publication_author: 
-publication_name: 
-publication_year: 
-publication_venue: 
-publication_doi: 
-publication_link:
-publication_info: none
+     Sharing personal informatics data can support accountability, connectedness, and self-expression, but people often find their data too trivial to share on social media. Ephemeral social platforms like Snapchat and Story features have emerged as spaces for sharing more trivial life events, presenting an opportunity to incorporate self-tracked data into sharing. Past work suggests that including data-driven stickers on these platforms can help add additional context to what people share, but little is known about the benefits and challenges of people's everyday experiences with this concept. To understand people's everyday use of data-driven stickers, we designed and developed SnapPI, an app for flexibly incorporating data into stickers for Snapchat. We deployed SnapPI to 21 participants for two weeks, finding that participants value aligning data sharing with Snapchat's communication and stylistic norms. Perceiving Snapchat as a playful platform, participants connected data stickers with various visual components of their Snaps. Stickers were used to incorporate personal informatics data into their existing conversations, and were edited to align with different audience needs or to be expressive. We discuss recommendations for personal data sharing, suggesting supporting flexibility in presentation and aligning with the norms of existing platforms.
+# project_status: ongoing
+publication_author: "<b>Dennis Wang</b>, Marawin Chheang, Siyun Ji, Ryan Mohta, Daniel A. Epstein"
+publication_name: "SnapPI: Understanding Everyday Use of Personal Informatics Data Stickers on Ephemeral Social Media"
+publication_year: 2022
+publication_venue: CSCW
+publication_doi: "https://doi.org/10.1145/3555652"
+publication_link: "/static/cscw2022-SnapPI.pdf"
+publication_info: "<b>Dennis Wang</b>, Marawin Chheang, Siyun Ji, Ryan Mohta, and Daniel A. Epstein. 2022. SnapPI: Understanding Everyday Use of Personal Informatics Data Stickers on Ephemeral Social Media. Proc. ACM Hum.-Comput. Interact. 6, CSCW2, Article 539 (November 2022), 27 pages. https://doi.org/10.1145/3555652"
 ---
