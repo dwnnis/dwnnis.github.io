@@ -1,0 +1,40 @@
+---
+layout: default
+title: Publications
+---
+<h1>Publications</h1>
+
+<p style="color: #A2A2A2;"> Visit my profile on <a style="font-style: italic;" href="https://scholar.google.com/citations?user=_rDB9vwAAAAJ&hl=en">Google Scholar</a>.</p>
+
+I do HCI research and mainly publish in ACM SIGCHI Conferences and Journals (i.e., CHI, CSCW).
+
+<h3>Conference & Journal Publications</h3>
+
+{% for publication in site.data.publication %}
+{% if publication.rigourness == "full" %}
+<p>
+    <b>{{ publication.title }}</b>
+    <br>
+    {{ publication.author}}
+    <br>
+    {{ publication.venue }} {{ publication.year }} | <a href="{{ publication.url }}">PDF</a>
+</p>
+{% endif %}
+{% endfor %}
+
+<h3>Lightly Reviewed Publications</h3>
+
+{% for publication in site.data.publication %}
+{% if publication.rigourness == "light" %}
+
+<p>
+    <b>{{ publication.title }}</b>
+    <br>
+    {{ publication.author}}
+    <br>
+    {{ publication.venue }}
+</p>
+
+
+{% endif %}
+{% endfor %}

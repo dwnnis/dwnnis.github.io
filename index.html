@@ -4,40 +4,66 @@ title: Home
 ---
 
 <div class="bio">
-    <div class="bio_image">
-        <!-- <img src= {{ "assets/images/dennis-portrait.jpeg" | relative_url }}></img> -->
-        <img src= {{ "assets/images/dennis-portrait-2022.png" | relative_url }}></img>
-    </div>
     <div class="bio_text">
+        <div class="bio_image">
+            <!-- <img src= {{ "assets/images/dennis-portrait.jpeg" | relative_url }}></img> -->
+            <img src= {{ "assets/images/dennis-portrait-2025.jpg" | relative_url }}></img>
+        </div>  
         <h1> Hello! </h1>
         <!-- need to add image here -->
-        <p style="color: coral; font-style: italic;">Grateful and excited to share - starting late 2025, I will be joining the <a style="color: darkred; font-weight: bold;" href="https://www.cs.nycu.edu.tw/?locale=en">Department of Computer Science</a> at the <a style="color: darkred; font-weight: bold;" href="https://www.nycu.edu.tw/nycu/en/index">National Yang Ming Chiao Tung University (NYCU) (Hsinchu, Taiwan)</a> as an Assistant Professor. I will be sharing more about my future plans (e.g., research group, recruitment, and collaboration) soon! </p>
+        <!-- <p style="color: coral; font-style: italic;">Grateful and excited to share - starting late 2025, I will be joining the <a style="color: darkred; font-weight: bold;" href="https://www.cs.nycu.edu.tw/?locale=en">Department of Computer Science</a> at the <a style="color: darkred; font-weight: bold;" href="https://www.nycu.edu.tw/nycu/en/index">National Yang Ming Chiao Tung University (NYCU) (Hsinchu, Taiwan)</a> as an Assistant Professor. I will be sharing more about my future plans (e.g., research group, recruitment, and collaboration) soon! </p> -->
         <p>
-        I recently completed my PhD in Informatics at the University of California, Irvine, as a member of the <a href="https://depstein.net/pielab">PIE Lab</a> with <a href="https://depstein.net/">Prof. Daniel Epstein</a>. 
+        I am an Assistant Professor in <a href="https://www.cs.nycu.edu.tw/">Computer Science</a> at the <a href="https://www.nycu.edu.tw/nycu/en/index">National Yang Ming Chiao Tung University</a> (Hsinchu, Taiwan).
         <br>
         <br>
-        My research focus on <b>helping people to connect with each other effectively through using social technology for their social goals</b>, such as receiving social well-being or communication benefits. Specifically, I <b>study, build, and evaluate social technology that support the communication process of sharing activities</b> (e.g., hobbies and things people care about) which allow people to achieve their social well-being goals.
-        <!-- after Research pages were done, could add a paragraph on past experience -->
+        As a human-computer interaction researcher, I focus on the intersection of Social Computing and Personal Informatics to study how to design and build social computing systems and computational-mediated environments incorporating personal informatics technology that leads to benefits in human well-being.
         <br>
         <br>
-        I apply a mixed-method approach to (1) <b>advance understanding</b> of people's practices and experience with the design of social media platform, (2) <b>design and build systems</b> based on the empirical evidence from these studies and theories, and (3) <b>conduct real-world field deployment studies</b> with the target communities to understand the impact of my design.
+        In my research, I drawn a mixed methods approach, often incorporates system-building and empirical study in the field to grasp a sense of in-the-wild experience. I often (1) <b>advance understanding</b> of people's practices and experience with various social media platform design, (2) <b>design and build systems</b> based on the empirical evidence from these studies and theories, and (3) <b>conduct real-world field deployment studies</b> with the target communities to understand the impact of my design.
         <br>
         <br>
-        In my doctoral work, I study the sharing of activities with personal tracking data on social media platforms. I argue that <b><i>when people are supported in aligning their sharing with the ideal practices or existing sharing norms of the platform, they will receive more desired sharing outcomes</i></b>.
+        I completed my PhD in Informatics at the University of California, Irvine, as a member of the <a href="https://depstein.net/pielab">PIE Lab</a> with <a href="https://depstein.net/">Prof. Daniel Epstein</a>. Prior to UC Irvine, I received a M.S. degree in Computer Science from <a href="https://illinois.edu/">University of Illinois at Urbana-Champaign, U.S.</a>, and a B.S. degree in Computer Science from <a href="https://www.nccu.edu.tw/index.php?Lang=en">National Chengchi University, Taiwan</a>. 
         <br>
         <br>
-        For additional details about my work and publications, please explore my <a href="/static/Dennis-Wang-CV-Website.pdf">CV</a> or <a href="https://scholar.google.com/citations?user=_rDB9vwAAAAJ">Google Scholar</a> profile.
-        <br>
-        <br>
-        Prior to UC Irvine, I received a M.S. degree in Computer Science from <a href="https://illinois.edu/">University of Illinois at Urbana-Champaign, U.S.</a>, and a B.S. degree in Computer Science from <a href="https://www.nccu.edu.tw/index.php?Lang=en">National Chengchi University, Taiwan</a>. 
+        For additional details about my work and publications, please explore my <a href="/static/Dennis-Wang-CV-Website.pdf">CV</a> or <a href="https://scholar.google.com/citations?user=_rDB9vwAAAAJ&hl=en">Google Scholar</a> profile.
         <br>
         <br>
         I am a fan of music, book about books, criticism of all kinds, ice cream, and coffee brewing.
         </p>
         <p>
             <!-- [ <a href="/static/Dennis-Wang-CV-2020-Website.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=IjfEduAAAAAJ">Google Scholar</a> ] -->
-            Find me on [ <a href="https://www.linkedin.com/in/dennis-wang-b1859897/">LinkedIn</a> | <a href="https://twitter.com/dwnnis">Twitter</a> | <a href="https://bsky.app/profile/denniswang.bsky.social">Bluesky</a> ] or email me at dennisw7 at uci dot edu
+            Find me on [ <a href="https://www.linkedin.com/in/dennis-wang-b1859897/">LinkedIn</a> | <a href="https://twitter.com/dwnnis">Twitter</a> | <a href="https://bsky.app/profile/denniswang.bsky.social">Bluesky</a> ] or email me at dennis at nycu dot edu dot tw
         </p>
+    </div>
+    <div class="update">
+        <h1>News</h1>
+        {% for update in site.data.updates limit:5 %}
+        <ul>
+            <li>
+            <div class="update_item">
+                <b>{{ update.date }}</b> | {{ update.event }}
+            </div>
+            </li>
+        </ul>
+        {% endfor %}
+    </div>
+    <div class="publications">
+        <h1> Selected Publications </h1>
+        In my doctoral work, I study the sharing of activities with personal tracking data on social media platforms. I argue that <b><i>when people are supported in aligning their sharing with the ideal practices or existing sharing norms of the platform, they will receive more desired sharing outcomes</i></b>.
+        {% for post in site.categories.research %}
+        <!-- <li> -->
+        <!-- img -->
+         <ul>
+            {% if post.selected_publication == "yes" %}
+            <li class="project_name"> <b>{{ post.project_name }}</b> <br>
+            {{ post.publication_author}} <br>
+            {{ post.publication_venue}} {{ post.publication_year }} | <a href="{{ post.publication_link }}">Paper</a>   
+            </li>
+            {% endif %} 
+         </ul>
+        <!-- {{ post.project_description }} -->
+        <!-- </li> -->
+        {% endfor %}
     </div>
 </div>
 <!-- <div class="contact">

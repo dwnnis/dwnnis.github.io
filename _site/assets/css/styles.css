@@ -11,7 +11,7 @@ nav a { padding: 0% 5%; }
 section { font-size: 1em; padding: 2rem 10%; width: 80%; }
 
 /* 48em = 768px */
-@media (min-width: 48em) { section { padding: 2rem 20%; width: 60%; } .bio_image img { float: left; width: calc(35% - (50px / 2)); margin-right: 30px; margin-bottom: 40px; padding-top: 26px; } }
+@media (min-width: 48em) { section { padding: 2rem 20%; width: 60%; } .bio_image img { float: left; width: calc(35% - (50px / 2)); margin-right: 30px; margin-bottom: 30px; } }
 
 @media (max-width: 48em) { .bio_image img { display: block; margin-left: auto; margin-right: auto; width: calc(60% - (50px / 2)); } }
 

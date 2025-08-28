@@ -1,0 +1,92 @@
+- title: "Understanding How Personal Activities Are Shared In Short-form Videos"
+  venue: "CSCW"
+  author: "Dennis Wang, Jun Zhu, Daniel A. Epstein"
+  year: 2025
+  url: /static/wang2025.pdf
+  citation: ""
+  rigourness: "full"
+- title: "Exploring Activity-Sharing Response Differences Between Broad-Purpose and Dedicated Online Social Platforms"
+  venue: "CSCW"
+  author: "Dennis Wang, Jocelyn Eng, Mykyta Turpitka, Daniel A. Epstein"
+  year: 2024
+  url: /static/wang2024.pdf
+  citation: ""
+  rigourness: "full"
+- title: "SnapPI: Understanding Everyday Use of Personal Informatics Data Stickers on Ephemeral Social Media"
+  venue: "CSCW"
+  author: "Dennis Wang, Marawin Chheang, Siyun Ji, Ryan Mohta, Daniel A. Epstein"
+  year: 2022
+  url: /static/wang2022.pdf
+  citation: ""
+  rigourness: "full"
+- title: "Revisiting Piggyback Prototyping: Examining Benefits and Tradeoffs in Extending Existing Social Computing Systems"
+  venue: "CSCW"
+  author: "Daniel A. Epstein, Fannie Liu, Andrés Monroy-Hernández, Dennis Wang"
+  year: 2022
+  url: /static/wang2022.pdf
+  citation: ""
+  rigourness: "full"
+- title: "“I love the feeling of being on stage, but I become greedy”: Exploring the impact of monetary incentives on live streamers’ social interactions and streaming content"
+  venue: "CSCW"
+  author: "Dennis Wang*, Yi-Chieh Lee*, & Wai-Tat Fu."
+  year: 2019
+  url: /static/wang2019.pdf
+  citation: ""
+  rigourness: "full"
+- title: "Understanding how digital gifting influences social interaction on live streams"
+  venue: "MobileHCI"
+  author: "Yi-Chieh Lee, Chi-Hsien Yen, Dennis Wang, & Wai-Tat Fu"
+  year: 2016
+  url: /static/lee2016.pdf
+  citation: ""
+  rigourness: "full"
+- title: "Supporting Positive Sharing Experiences with Personal Activity-Tracking Data on Social Media Platforms"
+  venue: "CSCW 2024 Workshop - Positive Social Technologies"
+  author: "Dennis Wang, Daniel A. Epstein"
+  year: 2024
+  url: ""
+  citation: ""
+  rigourness: "light"
+- title: "Mindful Garden: Supporting Reflection on Biosignals in a Co-Located Augmented Reality Mindfulness Experience"
+  venue: "CSCW 2022 Extended Abstracts (Demo)"
+  author: "Lika Haizhou Liu*, Xi Lu*, Richard Martinez*, Dennis Wang*, Fannie Liu, Andrés Monroy-Hernández, Daniel A. Epstein"
+  year: 2022
+  url: ""
+  citation: ""
+  rigourness: "light"
+- title: "Comparing Social Support Differences in Activity Data Sharing on Dedicated and Broad Online Communities"
+  venue: "CSCW 2021 Workshop - The Future of Research on Online Health Communities"
+  author: "Dennis Wang, Jocelyn Eng, Nick Turpitka, Daniel A. Epstein"
+  year: 2021
+  url: ""
+  citation: ""
+  rigourness: "light"
+- title: "Practical Challenges in Piggyback Prototyping Social Media Experiences"
+  venue: "CHI 2021 Workshop - Social Media as a Design and Research Site for HCI"
+  author: "Dennis Wang, Marawin Chheang, Siyun Ji, Ryan Mohta, Daniel A. Epstein"
+  year: 2021
+  url: ""
+  citation: ""
+  rigourness: "light"
+- title: "Exploring the Complementary Features of Audio and Text Notes for Video-based Learning in Mobile Settings"
+  venue: "CHI 2021 Extended Abstracts (Late Breaking Work)"
+  author: "Si Chen, Dennis Wang, and Yun Huang"
+  year: 2021
+  url: ""
+  citation: ""
+  rigourness: "light"
+- title: "The stamp plate and the kicking chair: Data play for mealtime in preschools"
+  venue: "TAICHI 2018 (Annual Conference of Taiwan Association of Computer-Human Interaction)"
+  author: "Yingyu Chen, Dennis Wang, Chia-Yu Chen, Daniela Rosner, & Alexis Hiniker"
+  year: 2021
+  url: ""
+  citation: ""
+  rigourness: "light"
+- title: "PinchFun: A fine motor training game for preschool children with developmental delays"
+  venue: "CHI 2016 Extended Abstracts (Student Game Competition)"
+  author: "I-Fang Wang, Dennis Wang, Chia-Yu Chen, & Jyun-Fong Jheng"
+  year: 2016
+  url: ""
+  citation: ""
+  rigourness: "light"
+

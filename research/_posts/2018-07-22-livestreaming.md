@@ -12,5 +12,5 @@ publication_year: 2019
 publication_venue: CSCW
 publication_doi: https://doi.org/10.1145/3359194
 publication_link: "/static/wang2019.pdf"
-publication_info: "<b>Dennis Wang*</b>, Yi-Chieh Lee*, and Wai-Tat Fu. 2019. \"I Love the Feeling of Being on Stage, but I Become Greedy\": Exploring the Impact of Monetary Incentives on Live Streamers' Social Interactions and Streaming Content. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 92 (November 2019), 24 pages. DOI:https://doi.org/10.1145/3359194"
+publication_info: "Dennis Wang*, Yi-Chieh Lee*, and Wai-Tat Fu. 2019. \"I Love the Feeling of Being on Stage, but I Become Greedy\": Exploring the Impact of Monetary Incentives on Live Streamers' Social Interactions and Streaming Content. Proc. ACM Hum.-Comput. Interact. 3, CSCW, Article 92 (November 2019), 24 pages. DOI:https://doi.org/10.1145/3359194"
 ---
