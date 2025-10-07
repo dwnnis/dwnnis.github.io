@@ -15,4 +15,5 @@ publication_venue: CSCW
 publication_doi: "https://doi.org/10.1145/3686898"
 publication_link: "/static/wang2024.pdf"
 publication_info: "Dennis Wang, Jocelyn Eng, Mykyta Turpitka, and Daniel A. Epstein. 2024. Exploring Activity-Sharing Response Differences Between Broad-Purpose and Dedicated Online Social Platforms. Proc. ACM Hum.-Comput. Interact. 8, CSCW2, Article 359 (November 2024), 37 pages. https://doi.org/10.1145/3686898"
+publication_blog: "https://medium.com/acm-cscw/sharing-smarter-how-platform-choice-shapes-responses-to-your-posts-5a4274db7721"
 ---

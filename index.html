@@ -58,6 +58,9 @@ title: Home
             <li class="project_name"> <b>{{ post.project_name }}</b> <br>
             {{ post.publication_author}} <br>
             {{ post.publication_venue}} {{ post.publication_year }} | <a href="{{ post.publication_link }}">Paper</a>   
+            {% if post.publication_blog %}
+                 | <a href="{{ post.publication_blog }}">Blog</a> 
+            {% endif %}
             </li>
             {% endif %} 
          </ul>

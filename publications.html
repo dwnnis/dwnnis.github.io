@@ -17,7 +17,10 @@ I do HCI research and mainly publish in ACM SIGCHI Conferences and Journals (i.e
     <br>
     {{ publication.author}}
     <br>
-    {{ publication.venue }} {{ publication.year }} | <a href="{{ publication.url }}">PDF</a>
+    {{ publication.venue }} {{ publication.year }} | <a href="{{ publication.url }}">Paper</a>
+    {% if publication.blog %}
+         | <a href="{{ publication.blog }}">Blog</a> 
+    {% endif %}
 </p>
 {% endif %}
 {% endfor %}
